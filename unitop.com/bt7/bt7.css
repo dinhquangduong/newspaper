@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+ul.list-product{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.list-product  li{
+    padding: 50px 0px;
+    flex-basis: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.product-item{
+    border: 1px solid #b8b3b3;
+    padding: 30px 0;
+}
+.product-item a{
+    text-decoration: none;
+}
